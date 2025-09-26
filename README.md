@@ -15,10 +15,8 @@ We designed three related tables:
 ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="471" height="301" alt="customers" src="https://github.com/user-attachments/assets/2d33a437-af19-4544-b733-06a1e64ae86b" />
 )![Alt text]C:\Users\HP\OneDrive\Desktop\screenshot(/to/<img width="437" height="227" alt="product" src="https://github.com/user-attachments/assets/c0fef379-dfc6-4668-aee5-1718ab67af66" />
 )
-
-
-### ER Diagram
-![ER Diagram](docs/er_diagram.png)
+![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="898" height="353" alt="transactions" src="https://github.com/user-attachments/assets/8ec6e828-b755-4563-9d71-0edf112c300b" />
+)
 
 ---
 
@@ -52,11 +50,11 @@ y totals** → `SUM() OVER()`
 ## ⚙️ SQL Scripts
 Located in the `sql/` folder:
 
-- `q1_top5_products.sql` → Top products by revenue per region/quarter  
-- `q2_running_totals.sql` → Running monthly totals  
-- `q3_mom_growth.sql` → Month-over-month growth (%)  
-- `q4_customer_quartiles.sql` → Customer segmentation  
-- `q5_moving_average.sql` → 3-month moving average  
+ Top products by revenue per region/quarter  
+ Running monthly totals  
+ Month-over-month growth (%)  
+ Customer segmentation  
+ 3-month moving average  
 
 ---
 
