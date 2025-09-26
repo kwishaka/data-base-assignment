@@ -38,17 +38,19 @@ y totals** → `SUM() OVER()`
 9. ![Alt text](/to/)<img width="838" height="484" alt="quatieles" src="https://github.com/user-attachments/assets/6299feb1-9132-4e62-8039-16f2a4c50524" />
 
 
-10. 3-month moving averages** → `AVG() OVER()`
-11.
-12. ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/a9db626a-cede-4993-a966-d7484896b566" />
+10. 3-month moving averages** →
+11. ![Alt text](/C:\Users\HP\OneDrive\Desktop\screenshotto/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/8b91234b-aa12-46c6-8b82-b0cca4ad34ea" />
+)
+
+12.
+13. ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/a9db626a-cede-4993-a966-d7484896b566" />
 )
 
 
 
 ---
 
-## ⚙️ SQL Scripts
-Located in the `sql/` folder:
+
 
  Top products by revenue per region/quarter  
  Running monthly totals  
@@ -74,7 +76,3 @@ this will read to
 
 ---
 
-## 🛠️ How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/plsql-window-functions-ukwishaka-sandrine.git
