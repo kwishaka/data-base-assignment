@@ -31,17 +31,14 @@ y totals** → `SUM() OVER()`
 5. ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/df5ab9bc-4a0c-471e-813b-a602a3449371" />
 )
 6. Month-over-month growth** → `LAG()` / `LEAD()`
-7.   ![Alt text<img width="997" height="544" alt="month growth" src="https://github.com/user-attachments/assets/8b872c11-1985-4ecb-bc60-8b3c095f2295" />
-](/to/image.png)
-
-8. Customer quartiles** → `NTILE(4)`
-9. ![Alt text](/to/)<img width="838" height="484" alt="quatieles" src="https://github.com/user-attachments/assets/6299feb1-9132-4e62-8039-16f2a4c50524" />
-
-
-10. 3-month moving averages** →
-11. ![Alt text](/C:\Users\HP\OneDrive\Desktop\screenshotto/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/8b91234b-aa12-46c6-8b82-b0cca4ad34ea" />
+7.   ![Alt text<](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/8aa63681-26ce-4a85-b21f-6053016e9e27" />
 )
 
+8. Customer quartiles
+9.
+10. 3-month moving averages
+11. ![Alt text](/C:\Users\HP\OneDrive\Desktop\screenshotto/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/8b91234b-aa12-46c6-8b82-b0cca4ad34ea" />
+)
 12.
 13. ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/a9db626a-cede-4993-a966-d7484896b566" />
 )
