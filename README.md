@@ -1,29 +1,51 @@
-# PL/SQL Window Functions – Ukwishaka Sandrine
+   Ukwishaka Sandrine
 
-## 📌 Business Problem
+ Business Problem
 SmartMart, a retail company operating in Rwanda, wants to analyze sales performance across different regions.  
 Managers need to identify top products per region, monitor monthly sales growth, classify customers into quartiles, and calculate moving averages for forecasting.
 
 ---
 
-## 🗂️ Database Schema
+ 🗂️ Database Schema
 We designed three related tables:
 
-- **customers**(customer_id PK, customer_name, region)  
-- **products**(product_id PK, product_name, category)  
-- **transactions**(transaction_id PK, customer_id FK, product_id FK, sale_date, amount, total_price, order_number)
+- customers(customer_id PK, customer_name, region)  
+- products(product_id PK, product_name, category)  
+- transactions(transaction_id PK, customer_id FK, product_id FK, sale_date, amount, total_price, order_number
+![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="471" height="301" alt="customers" src="https://github.com/user-attachments/assets/2d33a437-af19-4544-b733-06a1e64ae86b" />
+)![Alt text]C:\Users\HP\OneDrive\Desktop\screenshot(/to/<img width="437" height="227" alt="product" src="https://github.com/user-attachments/assets/c0fef379-dfc6-4668-aee5-1718ab67af66" />
+)
+
 
 ### ER Diagram
 ![ER Diagram](docs/er_diagram.png)
 
 ---
 
-## 🎯 Success Criteria
-1. **Top 5 products per region and quarter** → `RANK()`  
-2. **Running monthly totals** → `SUM() OVER()`  
-3. **Month-over-month growth** → `LAG()` / `LEAD()`  
-4. **Customer quartiles** → `NTILE(4)`  
-5. **3-month moving averages** → `AVG() OVER()`  
+ Success Criteria
+1. Top 5 products per region and quarter** → `RANK()` ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="938" height="538" alt="ranks" src="https://github.com/user-attachments/assets/aeb63015-99c4-4b37-b23c-510f84c6dd60" />
+)
+2.  
+3. Running monthl!
+4. [Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="947" height="570" alt="runnings" src="https://github.com/user-attachments/assets/4504dfd0-bfd0-4ae1-a285-dec4240ac0aa" />
+)
+y totals** → `SUM() OVER()`
+5. ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/df5ab9bc-4a0c-471e-813b-a602a3449371" />
+)
+6. Month-over-month growth** → `LAG()` / `LEAD()`
+7.   ![Alt text<img width="997" height="544" alt="month growth" src="https://github.com/user-attachments/assets/8b872c11-1985-4ecb-bc60-8b3c095f2295" />
+](/to/image.png)
+
+8. Customer quartiles** → `NTILE(4)`
+9. ![Alt text](/to/)<img width="838" height="484" alt="quatieles" src="https://github.com/user-attachments/assets/6299feb1-9132-4e62-8039-16f2a4c50524" />
+
+
+10. 3-month moving averages** → `AVG() OVER()`
+11.
+12. ![Alt text](C:\Users\HP\OneDrive\Desktop\screenshot/to/<img width="793" height="547" alt="moving average" src="https://github.com/user-attachments/assets/a9db626a-cede-4993-a966-d7484896b566" />
+)
+
+
 
 ---
 
@@ -38,25 +60,16 @@ Located in the `sql/` folder:
 
 ---
 
-## 📸 Screenshots
-All screenshots are stored in the `screenshots/` folder.  
-Examples:
-- ![Top 5 Products](screenshots/q1_top5_products.png)  
-- ![Running Totals](screenshots/q2_running_totals.png)  
+ Analysis
 
----
-
-## 📊 Results & Analysis
-
-### Descriptive – What happened?
+# Descriptive – What happened?
 - Kigali region showed the highest sales, especially in beverages and electronics.  
 - Top 5 products contributed over 40% of total revenue in each quarter.  
-
-### Diagnostic – Why?
+becouse
 - Seasonal promotions in Q3 boosted beverage sales.  
 - High-value customers (quartile 1) are responsible for most revenue, showing dependence on a small customer group.  
 
-### Prescriptive – What next?
+this will read to
 - Target quartile 2–3 customers with promotions to move them into higher spending groups.  
 - Use 3-month moving averages for better inventory forecasting.  
 - Expand product promotions beyond Kigali to balance regional sales.  
